@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#333;
+  margin: 0;
+  padding: 0;
+  background: #F3F3F3; 
+}
+.fullBorder{
+  background: #fff;
+  border: 1px dashed #333;
+  height: 100px;
+}
+.fullBorder strong {
+    line-height: 100px;
+    vertical-align: middle;
+}
+#list{
+	padding:0 0 0 7%;
+	}
+.imgContainer{
+  position:relative;
+  margin: 20px;
+  padding:0;
+  width:15%;
+  min-height:300px;
+}
+.status{
+  text-align: center;
+  background-color: none;
+}
+.brown{
+  background-color:#797979;
+}
+.green{
+  background-color: #60C6BB;
+}
+.image{
+	width:100%;
+	height:100%;
+	min-height:200px;
+	max-height:200px;
+	}
+.fileUpload{
+	display:inline-block;
+	text-transform:uppercase;
+	color:#FFFFFF;
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	background:#686868;
+	font-weight:bold;
+	padding:10px 20px;
+	cursor: pointer;
+}
+.fileUpload .fileInput{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.remove {
+    color: #000000;
+    font-size: 48px;
+    line-height: 0;
+    position: absolute;
+    right: -20px;
+    top: -5px;
+	cursor:pointer;
+}
+.remove i{
+	background: #fff;
+    border-radius: 50%;
+    line-height: 20px;
+}
+#loadingText span{
+	font-size:20px;
+	line-height:20px;
+	font-weight:bold;
+}
+@media(max-width: 991px){
+	.imgContainer{
+		width: 25%;
+	}
+	#loadingText span{
+	font-size:14px;
+	line-height:14px;
+	font-weight:bold;
+}
+}
+@media(max-width: 767px){
+	.imgContainer{
+		width: 50%;
+	}
+}
+@media(max-width: 480px){
+	.imgContainer{
+		width: 75%;
+	}
+}
+
+
+
